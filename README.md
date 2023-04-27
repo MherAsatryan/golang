@@ -28,14 +28,17 @@ repo/github gist.
 Answers
 -----------------------------------------------------------------------------
 1)To efficiently store a large amount of data, it is recommended to utilize concurrency along with a pool of worker jobs to insert the data into a MySQL database. The number of workers can be controlled based on the size of the data being processed.
+
 2) The program simply reads the data from the csv file and does not change it.
 3) The main issue is data storage, so the pooling method can help improve application performance.
-4) For Deployment: Need to deploy the app to a cloud platform such as AWS.
-For scaling: Need to scale the app horizontally or vertically to handle increased traffic and load. 
-For Monitoring: Need to  monitor the app for performance and errors using tools such as New Relic.
+4) [For Deployment]: Need to deploy the app to a cloud platform such as AWS.
+[For scaling]: Need to scale the app horizontally or vertically to handle increased traffic and load. 
+[For Monitoring]: Need to  monitor the app for performance and errors using tools such as New Relic.
 But now I do not have enough skill to do that.
+
 5) Done
-6) Done
+
+7) Done
 
 
 Instructions
